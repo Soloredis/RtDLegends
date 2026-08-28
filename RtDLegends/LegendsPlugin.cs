@@ -26,7 +26,7 @@ namespace RtDLegends
     {
         private const string ModGuid = "Soloredis.RtDLegends";
         private const string ModName = "RtDLegends";
-        private const string ModVersion = "1.3.47";
+        private const string ModVersion = "1.3.48";
 
         private AssetBundle _myAssets;
 
