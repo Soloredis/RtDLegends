@@ -18,15 +18,13 @@ namespace RtDLegends
     [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Patch)]
     [BepInDependency("com.jotunn.jotunn", BepInDependency.DependencyFlags.HardDependency)]
     [BepInIncompatibility("blacks7ar.SeedBed")]
-    [BepInIncompatibility("randyknapp.mods.epicloot")]
-    [BepInIncompatibility("org.bepinex.plugins.valheim_plus")]
     /*[HarmonyPatch]*/
     
     internal partial class RtDLegends : BaseUnityPlugin
     {
         private const string ModGuid = "Soloredis.RtDLegends";
         private const string ModName = "RtDLegends";
-        private const string ModVersion = "1.3.48";
+        private const string ModVersion = "1.3.52";
 
         private AssetBundle _myAssets;
 
