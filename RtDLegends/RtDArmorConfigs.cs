@@ -651,7 +651,7 @@ namespace RtDLegends
                         itemConfig.AddRequirement(new RequirementConfig(reqItem, amount, amountPerLevel, true));
                     }
 
-                    ItemManager.Instance.AddItem(new CustomItem(this._myAssets, prefab, true, itemConfig));
+                    ItemManager.Instance.AddItem(new CustomItem(this._myAssets, prefab, false, itemConfig));
 
                     if (LoggingEnable.Value) { Logger.LogMessage("Added: " + prefab + " to the Object database"); }
                 }
