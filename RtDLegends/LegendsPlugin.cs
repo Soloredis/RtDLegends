@@ -22,9 +22,9 @@ namespace RtDLegends
     
     internal partial class RtDLegends : BaseUnityPlugin
     {
-        private const string ModGuid = "Soloredis.RtDLegends";
+        private const string ModGuid = "soloredis.rtdlegends";
         private const string ModName = "RtDLegends";
-        private const string ModVersion = "1.3.55";
+        private const string ModVersion = "1.3.57";
 
         private AssetBundle _myAssets;
 
