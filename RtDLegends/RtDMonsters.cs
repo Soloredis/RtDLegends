@@ -29,8 +29,11 @@ namespace RtDLegends
          "NorthernTroll_RtD",
          "FaeWolfIce_RtD",
          "FaeWolfLightening_RtD",
-         "Spirit_RtD",
-         "Golem_RtD"
+         "ElfHunterF_RtD",
+         "ElfHunterM_RtD",
+         "ElfPriestM_RtD",
+         "ElfWarriorF_RtD",
+         "ElfWarriorM_RtD"
         };
 
         public static SpawnConfig[] AshLandsSpawnConfig = new SpawnConfig[]
@@ -129,22 +132,11 @@ namespace RtDLegends
         public string[] ItemsListMonsters = new string[]
         {
             // Items
-            "BurningGland_RtD",
             "CookedDragonBoarMeat_RtD",
-            "DemonHide_RtD",
-            "DemonHorn_RtD",
             "DragonBoarMeat_RtD",
-            "DragonCore_RtD",
-            "TrophyHatchling_RtD",
             "CookedFaeWolfMeat_RtD",
-            "FaeNectar_RtD",
-            "FaeTrophyWolf_RtD",
-            "FaeWolfFang_RtD",
             "FaeWolfMeat_RtD",
-            "FaeWolfPelt_RtD",
-            "FairySilk_RtD",
             "SpiritHeart_RtD",
-            "TrophySpirit_RtD",
             "FroMetalOre_RtD",
             "FroMetalBar_RtD",
             "ThorHammer_RtD"
@@ -154,7 +146,6 @@ namespace RtDLegends
         {
             // Prefabs
             "Ragdoll_SO_Thor_RtD",
-            "BefoulerAOESpell_RtD",
             "projectile_thorhammer_RtD",
             "elextricvfx_RtD",
             "fx_eikthyr_stomp_RtD",
@@ -170,72 +161,11 @@ namespace RtDLegends
             "fx_FaeSpiritShieldBreak_RtD",
             "fx_FaeSpiritShieldHit_RtD",
             "Ragdoll_Necromander_RtD",
-            //AOE Prefabs
-            "AirTornadoMeadowsAOEMonster_RtD",
-            "ArcaneLargeAOEMonster_RtD",
-            "ArcaneMediumAOEMonster_RtD",
-            "ArcaneSmallAOEMonster_RtD",
-            "EarthQuakeMistLandsAOEMonster_RtD",
-            "EarthShieldSwampAOEMonster_RrtD",
-            "FireLargeAOEMonster_RtD",
-            "FireMediumAOEMonster_RtD",
-            "FireRingBlackForestAOEMonster_RtD",
-            "FireSmallAOEMonster_RtD",
-            "FrostEnchantmentMountainAOEMonster_RtD",
-            "LightDamgeAOEMonster_RtD",
-            "LighteningRainBlackForestAOEMonster_RtD",
-            "VoidAOEMonster_RtD",
-            "WaterAOEMonster_RtD",
             //Projectiles
-            "AirProjectileMonsterS_RtD",
-            "arbalest_projectile_bone_RtD",
-            "ArcaneProjectileLargeMonsterS_RtD",
-            "ArcaneProjectileLargeSecondaryMonsterS_RtD",
-            "ArcaneProjectileMediumMonsterS_RtD",
-            "ArcaneProjectileSmallMonsterS_RtD",
             "bow_projectile_frost_RtD",
             "bow_projectile_poison_RtD",
-            "EarthProjectileMonsterS_RtD",
-            "EarthProjectileQuakeMonsterS_RtD",
             "ElfSpearProjectile_RtD",
             "FairyHealAOE_RtD",
-            "FairyProtectAOE_RtD",
-            "FireProjectileLargeMonsterS_RtD",
-            "FireProjectileLargeSecondaryMonsterS_RtD",
-            "FireProjectileMediumMonsterS_RtD",
-            "FireProjectileMonsterS_RtD",
-            "FrostProjectileLargeMonsterS_RtD",
-            "FrostProjectileMonsterS_RtD",
-            "LighteningProjectileMonsterS_RtD",
-            "LightProjectileMonsterS_RtD",
-            "LightProjectileMonsterspawnS_RtD",
-            "LightProjectileMonsterspawnSummon_RtD",
-            "spawn_meteorselementalgolem1_RtD",
-            "spawn_meteorselementalgolem2_RtD",
-            "spawn_meteorsIarcane_RtD",
-            "spawn_meteorslightening_RtD",
-            "spawn_meteorsnecromancer1_RtD",
-            "spawn_meteorsnecromancer2_RtD",
-            "VoidProjectileMonsterS_RtD",
-            "VoidProjectileMonsterSpawn_RtD",
-            "VoidProjectileMonsterSummon_RtD",
-            "WaterProjectileMonsterS_RtD",
-            //Explosions
-            "ArcaneExplosionLargeMonsterS_RtD",
-            "ArcaneExplosionMediumMonsterS_RtD",
-            "ArcaneExplosionSmallMonsterS_RtD",
-            "EarthExplosionLargeMonsterS_RtD",
-            "EarthExplosionSmallMonsterS_RtD",
-            "FireExplosionLargeMonsterS_RtD",
-            "FireExplosionMediumMonsterS_RtD",
-            "FireExplosionSmallMonsterS_RtD",
-            "FrostExplosionLargeMonsterS_RtD",
-            "FrostExplosionSmallMonsterS_RtD",
-            "LightExplosionSmallMonsterS_RtD",
-            "LightningExplosionSmallMonsterS_RtD",
-            "StormExplosionSmallMonsterS_RtD",
-            "VoidExplosionSmallMonsterS_RtD",
-            "WaterExplosionMonsterS_RtD",
             //Melee VFX
             "vfx_ArcaneSlashHitM_RtD",
             "vfx_EarthSlashHitM_RtD",
@@ -281,12 +211,7 @@ namespace RtDLegends
             "PigletAttck2_RtD",
             "WizardAttack1_RtD",
             "WizardAttack2_RtD",
-            "WizardAttack3_RtD",
             //DeepNorth Attacks
-            "ElementalAttack1_RtD",
-            "ElementalAttack2_RtD",
-            "ElemetalRanged2_RtD",
-            "ElemetalRanged3_RtD",
             "ElfWarriorAttackF1_RtD",
             "ElfWarriorAttackF2_RtD",
             "ElfWarriorAttackF3_RtD",
@@ -295,14 +220,6 @@ namespace RtDLegends
             "ElfWarriorAttackM2_RtD",
             "ElfWarriorAttackM3_RtD",
             "ElfWarriorAttackM4_RtD",
-            "FairyAttack3_RtD",
-            "FairyAttackAOE_RtD",
-            "FairyAttackFire1_RtD",
-            "FairyAttackIce1_RtD",
-            "FairyHealAttack_RtD",
-            "FairyIceAOE_RtD",
-            "FairyProtect1_RtD",
-            "FairyProtect2_RtD",
             "HunterBowAttack1_RtD",
             "HunterBowAttack2_RtD",
             "HunterMBomb_RtD",
@@ -312,7 +229,6 @@ namespace RtDLegends
             "HunterMKick_RtD",
             "HunterSpear4_RtD",
             "PriestMelee1_RtD",
-            "PriestSpell2_RtD",
             "PriestSpell3_RtD",
             "PriestSpell4_RtD",
             "SpiritAOEAttack2_RtD",
@@ -377,43 +293,6 @@ namespace RtDLegends
             "Spawner_ElfWarriorF_RtD",
             "Spawner_FaeWolfIce_RtD",
             "Spawner_FaeWolfLightning_RtD",
-            "Spawner_Fairy1_RtD",
-            "Spawner_Fairy2_RtD",
-            "Spawner_Golem_RtD",
-            "Spawner_BodyPile1_RtD",
-            "Spawner_BodyPile2_RtD",
-            "Spawner_BodyPile3_RtD",
-            "Spawner_DragonBoar1_RtD",
-            "Spawner_DragonBoar2_RtD",
-            "Spawner_DragonBoar3_RtD",
-            "Spawner_UndeadPile1_RtD",
-            "Spawner_UndeadPile2_RtD",
-            "Spawner_UndeadPile3_RtD",
-            "Spawner_UndeadPile4_RtD",
-            "Spawner_UndeadPile5_RtD",
-            "Spawner_Wizard1_RtD",
-            "Spawner_Wizard2_RtD",
-            "Spawner_Wizard3_RtD",
-            "stonechest1_RtD",
-            "stonechest2_RtD",
-            "stonechest3_RtD",
-            "Spawner_ElfHunterF1_RtD",
-            "Spawner_ElfHunterF3_RtD",
-            "Spawner_ElfPirestM1_RtD",
-            "Spawner_ElfPirestM3_RtD",
-            "Spawner_ElfWarriorF1_RtD",
-            "Spawner_ElfWarriorF3_RtD",
-            "Spawner_ElfWarriorM1_RtD",
-            "Spawner_ElfWarriorM3_RtD",
-            "Spawner_FaeWolf1_RtD",
-            "sack1_RtD",
-            "sack2_RtD",
-            "sack3_RtD",
-            "sack4_RtD",
-            "sack5_RtD",
-            "sack6_RtD",
-            "sack7_RtD",
-            "stonechestfrost3_RtD",
             // Line break
             "LichKingAOE_RtD",
             "LichKingMelee1_RtD",
@@ -455,19 +334,12 @@ namespace RtDLegends
         public string[] MonsterList = new string[]
         {
             // Monsters without spawners
-            "ElfHunterF_RtD",
-            "ElfHunterM_RtD",
-            "ElfPriestM_RtD",
-            "ElfWarriorF_RtD",
-            "ElfWarriorM_RtD",
             "LichKing_RtD",
             "DragonBoarTamed_RtD",
             "FaeWolfLighteningCub_RtD",
             "FaeWolfIceCub_RtD",
             "FaeWolfIceTamed_RtD",
             "FaeWolfLighteningTamed_RtD",
-            "Fairy1_RtD",
-            "Fairy2_RtD",
             "Necromancer_RtD",
             "DragonPiglet_RtD",
             "SO_Thor_RtD"
@@ -604,119 +476,6 @@ namespace RtDLegends
             try
             {
                 // Location2
-                GameObject NorthLocation2 = _myAssets.LoadAsset<GameObject>("FaeRuins1_RtD");
-                if (NorthLocation2 != null)
-                {
-                    CustomLocation NorthObject2 = new(NorthLocation2, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.DeepNorth),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 5f,
-                        MaxAltitude = 500f,
-                        Quantity = 38,
-                        ExteriorRadius = 24f,
-                        MaxTerrainDelta = 3,
-                        MinDistanceFromSimilar = 256,
-                        ClearArea = true,
-                        Priotized = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(NorthObject2);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: FaeRuins1_RtD"); }
-
-                // Location2
-                GameObject NorthLocation3 = _myAssets.LoadAsset<GameObject>("FaeRuins2_RtD");
-                if (NorthLocation3 != null)
-                {
-                    CustomLocation NorthObject3 = new(NorthLocation3, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.DeepNorth),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 5f,
-                        MaxAltitude = 500f,
-                        Quantity = 38,
-                        MinDistanceFromSimilar = 256,
-                        ExteriorRadius = 15f,
-                        ClearArea = true,
-                        Priotized = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(NorthObject3);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: FaeRuins2_RtD"); }
-
-                // Location4
-                GameObject Location4 = _myAssets.LoadAsset<GameObject>("GothicRuin1_RtD");
-                if (Location4 != null)
-                {
-                    CustomLocation Object4 = new(Location4, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.AshLands),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 2f,
-                        MaxAltitude = 500f,
-                        MaxTerrainDelta = 10,
-                        ForestTresholdMin = 1f,
-                        ForestTrasholdMax = 99f,
-                        ExteriorRadius = 20,
-                        Quantity = 50,
-                        MinDistanceFromSimilar = 180,
-                        ClearArea = true,
-                        SlopeRotation = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(Object4);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: GothicRuin1_RtD"); }
-
-                // Location5
-                GameObject Location5 = _myAssets.LoadAsset<GameObject>("GothicRuin2_RtD");
-                if (Location5 != null)
-                {
-                    CustomLocation Object5 = new(Location5, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.AshLands),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 2f,
-                        MaxAltitude = 500f,
-                        ExteriorRadius = 20,
-                        MaxTerrainDelta = 10,
-                        ForestTresholdMin = 1f,
-                        ForestTrasholdMax = 99f,
-                        Quantity = 50,
-                        MinDistanceFromSimilar = 180,
-                        ClearArea = true,
-                        SlopeRotation = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(Object5);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: GothicRuin2_RtD"); }
-
-                // Location6
-                GameObject Location6 = _myAssets.LoadAsset<GameObject>("DragonBoarRuinStone_RtD");
-                if (Location6 != null)
-                {
-                    CustomLocation Object6 = new(Location6, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.AshLands),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 10f,
-                        MaxAltitude = 500f,
-                        MaxTerrainDelta = 10,
-                        ForestTresholdMin = 1f,
-                        ForestTrasholdMax = 99f,
-                        Quantity = 60,
-                        MinDistanceFromSimilar = 250f,
-                        Priotized = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(Object6);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: DragonBoarRuinStone_RtD"); }
-
-                // Location2
                 GameObject Location2F = _myAssets.LoadAsset<GameObject>("NecromancerAltar_RtD");
                 if (Location2F != null)
                 {
@@ -763,26 +522,6 @@ namespace RtDLegends
                     ZoneManager.Instance.AddCustomLocation(Object4F);
                 }
                 else { Logger.LogWarning("Failed to load location prefab: Vegvisir_Necromancer_RtD"); }
-
-                // Location4
-                GameObject NorthLocation4 = _myAssets.LoadAsset<GameObject>("FaeSpawner_RtD");
-                if (NorthLocation4 != null)
-                {
-                    CustomLocation NorthObject4 = new(NorthLocation4, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.DeepNorth),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 5f,
-                        MaxAltitude = 500f,
-                        Quantity = 60,
-                        ExteriorRadius = 10f,
-                        ClearArea = true,
-    
-                    });
-                    ZoneManager.Instance.AddCustomLocation(NorthObject4);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: FaeSpawner_RtD"); }
 
                 // Location5
                 GameObject Shrine56 = _myAssets.LoadAsset<GameObject>("SpiritShrine_RtD");
@@ -864,28 +603,6 @@ namespace RtDLegends
                     ZoneManager.Instance.AddCustomLocation(ThorObject2);
                 }
                 else { Logger.LogWarning("Failed to load location prefab: Vegvisir_Thor_RtD"); }
-
-                // Location1
-                GameObject NorthLocation1 = _myAssets.LoadAsset<GameObject>("FaeTree_RtD");
-                if (NorthLocation1 != null)
-                {
-                    CustomLocation NorthObject1 = new(NorthLocation1, true, new LocationConfig
-                    {
-    
-                        Biome = ZoneManager.AnyBiomeOf(Heightmap.Biome.DeepNorth),
-                        BiomeArea = Heightmap.BiomeArea.Everything,
-                        MinAltitude = 3f,
-                        MaxAltitude = 500f,
-                        Quantity = 120,
-                        MaxTerrainDelta = 2,
-                        MinDistanceFromSimilar = 50f,
-                        ExteriorRadius = 8f,
-                        ClearArea = true,
-                        Priotized = true,
-                    });
-                    ZoneManager.Instance.AddCustomLocation(NorthObject1);
-                }
-                else { Logger.LogWarning("Failed to load location prefab: FaeTree_RtD"); }
             }
             catch (Exception ex)
             {

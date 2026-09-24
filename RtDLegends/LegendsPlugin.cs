@@ -24,7 +24,7 @@ namespace RtDLegends
     {
         private const string ModGuid = "soloredis.rtdlegends";
         private const string ModName = "RtDLegends";
-        private const string ModVersion = "1.3.57";
+        private const string ModVersion = "1.3.59";
 
         private AssetBundle _myAssets;
 
@@ -167,13 +167,6 @@ namespace RtDLegends
             "Pickable_Crystal_RtD",
             "Pickable_BlackMetal_RtD",
 
-            // Props_Roots
-            "root1_RtD",
-            "root2_RtD",
-            "root3_RtD",
-            "root4_RtD",
-            "root5_RtD",
-
             // Props_Stone
             "BigBricksBlock00_RtD",
             "BigBricksBlock01_RtD",
@@ -311,7 +304,29 @@ namespace RtDLegends
         
         public string[] SoundEffectListMonsters = new string[]
         {
-            // Line break
+            // New SFX
+            
+            "SpiritAOESFX_RtD",
+            "SpiritExplosionSFX_RtD",
+            "MountainBossAOESFX_RtD",
+            "MountainBossExplosionSFX_RtD",
+            "PlainsBossAOESFX1_RtD",
+            "PlainsBossAOESFX2_RtD",
+            "PlainsBossExplosionSFX_RtD",
+            "SpiderQueenEggExplosionSFX_RtD",
+            "SpiderQueenExplosionSFX_RtD",
+            "SwampBossAOESFX_RtD",
+            "SwampBossExplosionSFX_RtD",
+            "trollkingexplosionSFX_RtD",
+            "FrostEnchantmentAOELichKingSFX_RtD",
+            "ThorAOESFX_RtD",
+            "ThorExplosionLargeSFX_RtD",
+            "ThorExplosionMediumSFX_RtD",
+            "ThorExplosionSmallSFX_RtD",
+            "SFX_Armor_RtD",
+            "SFX_Frosted_RtD",
+            "SFX_Shocked_RtD",
+            "SFX_Weakened_RtD",
             "sfx_undead_attack1_RtD",
             "sfx_undead_attack2_RtD",
             "sfx_undead_attack3_RtD",
@@ -359,7 +374,6 @@ namespace RtDLegends
             "sfx_thor_idle1_RtD",
             "sfx_thor_idle2_RtD",
             "sfx_thor_idle3_RtD",
-            // Sound Effects
             "sfx_arcanemonster_RtD",
             "sfx_earthcastmonster_RtD",
             "sfx_firecastmonster_RtD",
@@ -467,9 +481,6 @@ namespace RtDLegends
             "sfx_watcher_hit_RtD",
             "sfx_watcher_idle_RtD",
             "sfx_watcher_ranged_RtD",
-            "fx_footstep_jog_RtD",
-            "fx_footstep_run_RtD",
-            "fx_footstep_water_RtD",
             "sfx_offeringS_RtD",
             "sfx_golem_alerted_RtD",
             "sfx_golem_attack_RtD",
@@ -477,8 +488,6 @@ namespace RtDLegends
             "sfx_golem_hit_RtD",
             "sfx_golem_idle_RtD",
             "sfx_golem_ranged_RtD",
-            "fx_Queen_Run_RtD",
-            "fx_Queen_Walk_RtD",
             "sfx_queenalerted_RtD",
             "sfx_mutant3_attack_RtD1",
             "sfx_mutantranged3_RtD1",
